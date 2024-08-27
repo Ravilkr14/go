@@ -22,3 +22,29 @@ public class Main
 	
 	
 }
+
+//polymorphism
+class Dish{
+    String maincourse;
+    int cost;
+    
+    public void printInfo(String maincourse){
+        System.out.println(maincourse); 
+    }
+    public void printInfo(int cost){
+        System.out.println(cost);
+    }
+    
+}
+
+public class Main
+{
+	public static void main(String[] args) {
+	    Dish d1= new Dish();
+	    d1.maincourse="aalu ke parathe";
+	    d1.cost=89;
+	    
+	    d1.printInfo(d1.cost);
+		
+	}
+}
