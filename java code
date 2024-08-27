@@ -1,0 +1,24 @@
+class food{
+    String dishes;
+    String dessert;
+    int cost;
+    
+    public void menu(){
+        System.out.println(this.dishes);
+        System.out.println(this.dessert);
+        System.out.println(this.cost);
+    }
+}
+
+public class Main
+{
+	public static void main(String[] args){ 
+	food food1 = new food();
+	food1.dishes = "dbc";
+	food1.dessert = "gulabjamun";
+	food1.cost = 100;
+	food1.menu();  
+	}
+	
+	
+}
